@@ -5,5 +5,4 @@ from . import views
 app_name = 'polls'
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
-    path('king/<int:pk>/', views.DetailView.as_view(), name='detail'),
 ]
