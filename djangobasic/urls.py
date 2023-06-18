@@ -20,4 +20,5 @@ urlpatterns = [
     path('tcamp/', include('tcamp.urls')),
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),    
 ]
